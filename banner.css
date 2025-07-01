@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  padding: 10px 0;
+  position: relative;
+}
+
+.banner-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: bold;
+  animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

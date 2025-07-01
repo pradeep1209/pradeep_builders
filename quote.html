@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get a Quote | Pradeep Builders</title>
+    <link rel="stylesheet" href="quote.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Pradeep <span>Builders</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="quote.html" class="active">Quote</a>
+      </nav>
+    </header>
+
+    <main class="quote-section">
+      <h1 class="section-title">Request a Quote</h1>
+      <p class="subtitle">
+        Fill in the form and we'll get back to you with a custom quote!
+      </p>
+
+      <form class="quote-form" id="quoteForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input
+          type="text"
+          placeholder="Project Type (e.g. House, Office)"
+          required
+        />
+        <textarea
+          rows="5"
+          placeholder="Project Description..."
+          required
+        ></textarea>
+        <button type="submit">Submit Quote Request</button>
+      </form>
+    </main>
+
+    <script src="quote.js"></script>
+  </body>
+</html>
